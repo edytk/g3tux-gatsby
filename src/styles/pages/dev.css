@@ -23,8 +23,17 @@
 }
 
 #markdown a {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color: #111;
+  font-weight: 600;
+  border-bottom: 3px solid #b3b9c5 !important;
 }
+#markdown a:hover{
+    color: #111 !important;
+    background: rgba(71, 63, 79, 0.08) !important;
+  
+}
+
 
 .blog-post {
   background-color: rgb(255,255,255);
