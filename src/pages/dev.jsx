@@ -19,6 +19,8 @@ const Dev = ({ data }) => {
       <SEO title="Dev" />
       <Container text>
         <Content>
+        <h1>Latest Project 👨‍💻</h1>
+          <p>Here are GitHub repositories that I authored, contribute, and maintain</p>
           {target.map(({ node }) => (
             <Link
               key={node.id}

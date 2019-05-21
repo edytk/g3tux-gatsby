@@ -19,6 +19,8 @@ const TIL = ({ data }) => {
       <SEO title="TIL" />
       <Container text>
         <Content>
+        <h1>Articles 📝</h1>
+          <p>Posts about the programming-verse and various interesting things</p>
           {target.map(({ node }) => (
             <Link
               key={node.id}

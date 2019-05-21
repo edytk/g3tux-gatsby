@@ -72,12 +72,12 @@ class Template extends Component {
 
   renderPost = ({ prevPost, post, nextPost }) => (
     <>
-      <SEO title="Posting" keywords={post.frontmatter.tags} />
+      <SEO title={post.frontmatter.title} keywords={post.frontmatter.tags} />
       <Container text>
         <Content>
           <MarkedHeader>{post.frontmatter.title}</MarkedHeader>
-          <HeaderDate>{post.frontmatter.date}</HeaderDate>
-          <HashTagBox>
+          <HeaderDate>Publised {post.frontmatter.date}</HeaderDate>
+          <HashTagBox> 
             { post.frontmatter.tags.map(tag => <HashTag key={tag}>{ tag }</HashTag>) }
           </HashTagBox>
           <Divider />

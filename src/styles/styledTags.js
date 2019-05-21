@@ -20,9 +20,10 @@ export const MarkedHeader = styled.h1`
 
 export const HeaderDate = styled.h3`
   margin-top: 10px;
-  margin-bottom: 1.5em;
+  // margin-bottom: 1.5em;
   color: #bbb;
   font-size: 15px;
+  font-weight: 400;
 `;
 
 export const MarkDown = styled.div`
@@ -38,7 +39,8 @@ export const MarkerHeader = styled.h3`
 `;
 
 export const HashTagBox = styled.div`
-  margin-top: 7px;
+  margin-top: 0px;
+  pading-top: 100px;
 `;
 
 export const HashTag = styled.span`
