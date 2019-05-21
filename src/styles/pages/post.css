@@ -1,0 +1,102 @@
+@keyframes moveLeft {
+  from {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  to {
+    margin-right: 0.8%;
+    margin-left: -0.8%;
+  }
+}
+
+@keyframes moveRight {
+  from {
+    margin-right: 0.8%;
+    margin-left: -0.8%;
+  }
+
+  to {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+}
+
+#markdown a {
+  /* text-decoration: underline; */
+  color: #4a4a4a;
+  font-weight: 600;
+  /* border-bottom: 3px solid #b3b9c5 !important; */
+}
+#markdown a:hover{
+    color: #4a4a4a !important;
+    background: rgba(71, 63, 79, 0.08) !important;
+  
+}
+
+
+.blog-post {
+  background-color: rgb(255,255,255);
+  padding: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  box-shadow: rgba(46, 41, 51, 0.08) 0px 1px 2px, rgba(71, 63, 79, 0.08) 0px 2px 4px;
+}
+
+/* .blog-post:hover {
+  animation-duration: 0.3s;
+  animation-name: moveLeft;
+  margin-right: 0.8%;
+  margin-left: -0.8%;
+}
+
+.blog-post:not( :hover ) {
+  animation-duration: 0.3s;
+  animation-name: moveRight;
+  margin-right: 0%;
+  margin-left: 0%;
+} */
+
+.blog-post  {
+  /* box-shadow: inset 0 0 0 4px #4a4a4a; */
+  box-shadow: rgba(46, 41, 51, 0.08) 0px 1px 2px, rgba(71, 63, 79, 0.08) 0px 2px 4px;
+  border-radius: 3px;
+  padding: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: #4a4a4a;
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
+}
+.blog-post::before, .blog-post::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 3px;
+
+}
+.blog-post::before {
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+.blog-post::after {
+  border-top-width: 1px;
+  border-right-width: 1px;
+}
+.blog-post :hover {
+  /* color: #93a1a1; */
+}
+.blog-post:hover::before, .blog-post:hover::after {
+  border-color: #93a1a1;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+.blog-post:hover::before {
+  transition-delay: 0s, 0s, 0.25s;
+}
+.blog-post:hover::after {
+  transition-delay: 0s, 0.25s, 0s;
+}

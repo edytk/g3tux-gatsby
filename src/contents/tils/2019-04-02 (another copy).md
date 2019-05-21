@@ -2,7 +2,7 @@
 title: "Title Post"
 date: "2019-05-02"
 draft: false
-path: "/articles/2019-04-02"
+path: "/articles/3"
 category: "articles"
 tags: ["javascript"]
 project: "unsorted"

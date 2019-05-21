@@ -19,6 +19,7 @@ import {
 
 /* global window */
 class Template extends Component {
+  
   componentDidMount = () => {
     store.dispatch({ type: TOGGLE_IS_IN_DOCUMENT });
   }
@@ -132,6 +133,7 @@ export const pageQuery = graphql`
             category
             tags
           }
+          
         }
       }
     }
