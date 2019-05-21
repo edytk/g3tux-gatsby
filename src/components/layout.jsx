@@ -7,6 +7,8 @@ import store from '../utils/store';
 import DesktopContainer from './DesktopContainer';
 import MobileContainer from './MobileContainer';
 import { FINISH_LOADING, SET_CURRENT_PAGE } from '../modules/actionTypes';
+import logo from '../images/icon.png'
+
 
 import '../styles/layout.css';
 
