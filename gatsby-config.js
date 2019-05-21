@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Edy Tama Kusumajaya",
+    title: "Edy Tama Kusumajaya 👾",
     description:
       "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
     author: "@edytk",
