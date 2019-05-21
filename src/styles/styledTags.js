@@ -22,7 +22,7 @@ export const HeaderDate = styled.h3`
   margin-top: 10px;
   margin-bottom: 1.5em;
   color: #bbb;
-  font-size: 20px;
+  font-size: 15px;
 `;
 
 export const MarkDown = styled.div`
