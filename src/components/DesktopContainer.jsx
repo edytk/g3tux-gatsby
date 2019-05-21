@@ -14,7 +14,7 @@ import logo from '../images/icon.png'
 
 
 const styles = {
-  menuLink: { padding: '1em 1.5em', color: '#333' },
+  menuLink: { padding: '1em 2.5em', color: '#333' },
 
   
 };
@@ -62,8 +62,8 @@ class DesktopContainer extends Component {
               <Menu.Item style={{ padding: 0 }} as="span" active={currentPage === 'articles'}>
                 <Link style={styles.menuLink} to="/articles" onClick={() => this.onMenuClick('articles')}>Articles</Link>
               </Menu.Item>
-              <Menu.Item style={{ padding: 0 }} as="span" active={currentPage === 'about'}>
-                <Link style={styles.menuLink} to="/about" onClick={() => this.onMenuClick('about')}>About</Link>
+              <Menu.Item style={{ padding: 0 }} as="span" active={currentPage === 'me'}>
+                <Link style={styles.menuLink} to="/me" onClick={() => this.onMenuClick('me')}>About</Link>
               </Menu.Item>
             </Container>
           </Menu>

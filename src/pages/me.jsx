@@ -34,7 +34,7 @@ const Icon = styled.h1`
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="About Me" />
     <Container text>
       <Content>
         <Name>Edy Tama Kusumajaya</Name>

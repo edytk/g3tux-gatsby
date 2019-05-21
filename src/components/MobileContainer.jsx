@@ -92,14 +92,14 @@ class MobileContainer extends Component {
             </Menu.Item>
             <Menu.Item
               as="span"
-              active={currentPage === 'til'}
-              onClick={() => this.onItemClick('tilBtn')}
+              active={currentPage === 'articles'}
+              onClick={() => this.onItemClick('articlesBtn')}
             >
               <Link
-                ref={(btn) => { this.tilBtn = btn; }}
+                ref={(btn) => { this.articlesBtn = btn; }}
                 style={{ color: '#333' }}
-                to="/til"
-                onClick={() => this.onMenuClick('til')}
+                to="/articles"
+                onClick={() => this.onMenuClick('articles')}
               >
                 TIL
               </Link>
@@ -112,7 +112,7 @@ class MobileContainer extends Component {
               <Link
                 ref={(btn) => { this.aboutBtn = btn; }}
                 style={{ color: '#333' }}
-                to="/about"
+                to="/me"
                 onClick={() => this.onMenuClick('about')}
               >
                 About

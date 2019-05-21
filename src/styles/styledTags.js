@@ -6,7 +6,7 @@ color: #aaa;
 `;
 
 export const Content = styled.div`
-  margin-top: 1.5em;
+  margin-top: 3.5em;
   text-align: start;
   display: flex;
   flex-flow: column;
