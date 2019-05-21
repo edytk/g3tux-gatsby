@@ -1,0 +1,102 @@
+* {
+  outline: none;
+  letter-spacing: 0.5px;
+}
+
+html {
+  font-size: 11.5px;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+h1, h2, h3, h4, h5, span, a, p {
+  word-wrap: break-word;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.language-css .token.string, .style .token.string, .token.entity, .token.operator, .token.url {
+  background-color: inherit;
+}
+
+p {
+  line-height: 200%;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #333;
+}
+
+code {
+  font-size: 0.9em !important;
+}
+
+/* Colors */
+red {
+  color: red;
+}
+
+gray {
+  color: #bbb;
+}
+
+.gatsby-resp-image-wrapper {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 0% !important;
+  margin-right: 0% !important;
+}
+
+.gatsby-resp-image-image {
+  box-shadow: none !important;
+  background-color: rgb(250,250,250);
+}
+
+div.ui.divider.footer-divider {
+  margin-top: 5em;
+}
+
+.ui.large.pointing.secondary.menu {
+  border-bottom: 1px solid rgba(34,36,38,.15);
+}
+
+.ui.large.pointing.secondary.top.fixed.menu {
+  background-color: rgb(250, 250, 250); 
+}
+
+.scroll {
+  background-color: rgba(250, 250, 250, 0.2);
+  height: 3em;
+  width: 3em;
+  position: fixed;
+  bottom: 1.5em;
+  right: 1.5em;
+  border-radius: 200px; 
+  border: none;
+  z-index: 1;
+}
+
+.scroll > i {
+  margin: 0px;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.prev-icon > i {
+  text-align: end !important;
+}
+
+.next-icon > i {
+  text-align: initial !important;
+}

@@ -1,0 +1,47 @@
+@keyframes moveLeft {
+  from {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  to {
+    margin-right: 0.8%;
+    margin-left: -0.8%;
+  }
+}
+
+@keyframes moveRight {
+  from {
+    margin-right: 0.8%;
+    margin-left: -0.8%;
+  }
+
+  to {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+}
+
+#markdown a {
+  text-decoration: underline;
+}
+
+.blog-post {
+  background-color: rgb(255,255,255);
+  padding: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  box-shadow: rgba(46, 41, 51, 0.08) 0px 1px 2px, rgba(71, 63, 79, 0.08) 0px 2px 4px;
+}
+
+.blog-post:hover {
+  animation-duration: 0.3s;
+  animation-name: moveLeft;
+  margin-right: 0.8%;
+  margin-left: -0.8%;
+}
+
+.blog-post:not( :hover ) {
+  animation-duration: 0.3s;
+  animation-name: moveRight;
+  margin-right: 0%;
+  margin-left: 0%;
+}
