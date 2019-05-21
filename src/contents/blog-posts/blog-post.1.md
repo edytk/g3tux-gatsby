@@ -1,13 +1,13 @@
 ---
-title: "Title Post x"
-date: "2019-05-02"
+title: "Project Title"
+date: "2019-02-09"
 draft: false
-path: "/articles/2019-04-02"
+path: "/articles/me"
 category: "articles"
-tags: ["javascript"]
-project: "unsorted"
+tags: ["eslint", "mongo-db", "jwt"]
+project: "project-post"
 ---
-
+---
 
 
 # h1 Heading 8-)

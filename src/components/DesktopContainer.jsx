@@ -59,8 +59,8 @@ class DesktopContainer extends Component {
               <Menu.Item style={{ padding: 0 }} as="span" active={currentPage === 'dev'}>
                 <Link style={styles.menuLink} to="/dev" onClick={() => this.onMenuClick('dev')}>Project</Link>
               </Menu.Item>
-              <Menu.Item style={{ padding: 0 }} as="span" active={currentPage === 'til'}>
-                <Link style={styles.menuLink} to="/til" onClick={() => this.onMenuClick('til')}>TIL</Link>
+              <Menu.Item style={{ padding: 0 }} as="span" active={currentPage === 'articles'}>
+                <Link style={styles.menuLink} to="/articles" onClick={() => this.onMenuClick('articles')}>Articles</Link>
               </Menu.Item>
               <Menu.Item style={{ padding: 0 }} as="span" active={currentPage === 'about'}>
                 <Link style={styles.menuLink} to="/about" onClick={() => this.onMenuClick('about')}>About</Link>

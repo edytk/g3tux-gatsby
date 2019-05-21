@@ -12,8 +12,8 @@ import {
   Content, ArticleDate,
 } from '../styles/styledTags';
 
-const TIL = ({ data }) => {
-  const target = data.allMarkdownRemark.edges.filter(ele => ele.node.frontmatter.category === 'til');
+const Articles = ({ data }) => {
+  const target = data.allMarkdownRemark.edges.filter(ele => ele.node.frontmatter.category === 'articles');
   return (
     <Layout>
       <SEO title="Articles" />
@@ -45,7 +45,7 @@ const TIL = ({ data }) => {
   );
 };
 
-TIL.propTypes = {
+Articles.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -53,7 +53,7 @@ TIL.propTypes = {
   }).isRequired,
 };
 
-export default TIL;
+export default Articles;
 
 export const query = graphql`
   query {

@@ -39,13 +39,6 @@ const About = () => (
       <Content>
         <Name>Edy Tama Kusumajaya</Name>
         <SubHeader>Blablabla</SubHeader>
-        <IconBox>
-          <Icon><a href="https://github.com/edytk"><i className="github icon" /></a></Icon>
-          <div>
-            <Icon><a href="mailto:thamously@gmail.com"><i className="envelope icon" /></a></Icon>
-            
-          </div>
-        </IconBox>
       </Content>
     </Container>
   </Layout>

@@ -24,12 +24,12 @@
 
 #markdown a {
   /* text-decoration: underline; */
-  color: #111;
+  color: #4a4a4a;
   font-weight: 600;
-  border-bottom: 3px solid #b3b9c5 !important;
+  /* border-bottom: 3px solid #b3b9c5 !important; */
 }
 #markdown a:hover{
-    color: #111 !important;
+    color: #4a4a4a !important;
     background: rgba(71, 63, 79, 0.08) !important;
   
 }
