@@ -14,6 +14,7 @@ import {
   OPEN_SIDE_BAR, CLOSE_SIDE_BAR, SET_CURRENT_PAGE,
 } from '../modules/actionTypes';
 import ScrollButton from './ScrollButton';
+import { auto } from 'eol';
 
 /* global window */
 const getWidth = () => {
@@ -132,7 +133,8 @@ class MobileContainer extends Component {
                     {isInDocument ? <Icon name="angle left" size="large" /> : <Icon name="sidebar" />}
                   </Menu.Item>
                   <Menu.Item position="right">
-                    <h4 style={{ margin: 0 }}>{siteTitle}</h4>
+                    {/* <h2 style={{ margin: auto }}>{siteTitle}</h2> */}
+                    <h2>/et.mk/</h2>
                   </Menu.Item>
                 </Menu>
                 {children}

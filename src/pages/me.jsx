@@ -9,7 +9,7 @@ const Name = styled.h1`
   margin-bottom: 0px;
 `;
 
-const SubHeader = styled.h4`
+const SubHeader = styled.h1`
   margin-top: 10px;
   margin-bottom: 3em;
   color: rgba(0,0,0,0.6);
@@ -38,7 +38,7 @@ const About = () => (
     <Container text>
       <Content>
         <Name>Edy Tama Kusumajaya</Name>
-        <SubHeader>Blablabla</SubHeader>
+        <SubHeader><a href="https://et.mk">https://et.mk</a></SubHeader>
       </Content>
     </Container>
   </Layout>

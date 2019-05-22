@@ -35,7 +35,7 @@ export const BlogPostBox = styled.div`
   margin-top: 30px;
 `;
 
-export const MarkerHeader = styled.h3`
+export const MarkerHeader = styled.h1`
   margin-bottom: 0px;
 `;
 
