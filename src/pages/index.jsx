@@ -18,7 +18,7 @@ const IndexPage = () => (
     <Container text>
       <Content>
       <img class="logo-tama" src={logo} alt="Tama Logo"></img>
-        <h2>Hi, I'm Edy Tama 👋</h2>
+        <h1>Hi, I'm Edy Tama 👋</h1>
         <p>This page is created by Gatsby</p>
       </Content>
     </Container>

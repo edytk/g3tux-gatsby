@@ -1,7 +1,8 @@
 import styled from '@emotion/styled';
 
 export const ArticleDate = styled.h5`
-display: inline;
+display: block;
+padding-top: 5px;
 color: #aaa;
 `;
 

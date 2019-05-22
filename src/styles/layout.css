@@ -162,3 +162,8 @@ a:hover {
   padding-top: 5px;
   margin-right: 10px;
 }
+
+
+.ui.segment, .ui.segments, .segment, .ui.menu{ 
+  font-size: 12px !important;
+}
