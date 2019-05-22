@@ -5,10 +5,10 @@ Learn to make my own Gatsby theme. Fully customized, based on [gatsby/gatsby-sta
 
 ## 🔥 Lighthouse Score
 
-![](screenshot/lighthouse.png)
+![https://g3tux-gatsby.netlify.com](screenshot/lighthouse.png)
 
 
-### [Live Demo](https://etmk-dev.netlify.com)
+### [Live Demo](https://g3tux-gatsby.netlify.com)
 
 
 © 2019 edytk, All rights deserved.
