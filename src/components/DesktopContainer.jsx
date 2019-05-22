@@ -50,7 +50,7 @@ class DesktopContainer extends Component {
             <Container text>
             
             <Menu.Item style={{ padding: 0 }} as="span">
-                <Link style={styles.menuLink} to="/" onClick={() => this.onMenuClick('home')}><h1><img src={logo} className="favicon" alt="favicon" />/et.mk/</h1></Link>
+                <Link style={styles.menuLink} to="/" onClick={() => this.onMenuClick('home')}><h1><img src={logo} className="favicon" alt="favicon" />/g3tux/</h1></Link>
             </Menu.Item>
 
               <Menu.Item style={{ padding: 0 }} as="span" active={currentPage === 'home'}>

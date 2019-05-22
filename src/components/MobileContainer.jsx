@@ -134,7 +134,7 @@ class MobileContainer extends Component {
                   </Menu.Item>
                   <Menu.Item position="right">
                     {/* <h2 style={{ margin: auto }}>{siteTitle}</h2> */}
-                    <h2>/et.mk/</h2>
+                    <h2>/g3tux/</h2>
                   </Menu.Item>
                 </Menu>
                 {children}
